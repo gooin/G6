@@ -1449,6 +1449,7 @@ export default abstract class AbstractGraph extends EventEmitter implements IAbs
    * 根据data接口的数据渲染视图
    */
   public render(): void {
+    console.log('render1',);
     const self = this;
     this.set('comboSorted', false);
     const data: GraphData = this.get('data');

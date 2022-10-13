@@ -19,6 +19,8 @@ import Plugin from './plugin';
 import './element';
 import './behavior';
 
+console.log('@antv/g6-pc');
+
 type IAlgorithm = typeof AlgorithmSync | typeof AlgorithmAsync;
 const Algorithm: IAlgorithm = { ...AlgorithmSync, ...AlgorithmAsync };
 

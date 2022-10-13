@@ -13,6 +13,7 @@ import Edge from './item/edge';
 import Hull from './item/hull';
 import Combo from './item/combo';
 
+console.log('@antv/g6-core');
 const registerNode = Shape.registerNode;
 const registerEdge = Shape.registerEdge;
 const registerCombo = Shape.registerCombo;
